@@ -1,10 +1,20 @@
-import './App.css'
-import Jugadores from './pages/Jugadores'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import Jugadores from "./pages/Jugadores";
 
-// En App.jsx o App.tsx
 function App() {
-  return <Jugadores/>;
+  return (
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/jugadores" element={<Jugadores />} />
+          {/* más páginas acá */}
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
-
-export default App
+export default App;
