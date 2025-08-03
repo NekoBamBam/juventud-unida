@@ -1,12 +1,43 @@
-# React + Vite
+# ⚽ Juventud Unida - Web del Club
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenidos a la web oficial de **Juventud Unida**, el club de barrio hecho con pasión, dedicación y mucho fútbol!  
+Este proyecto representa no solo a un equipo, sino a una comunidad que vive el deporte como forma de vida.
 
-Currently, two official plugins are available:
+![Juventud Unida Banner](./src/assets/logo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌐 ¿De qué se trata?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Una página web desarrollada con **React + TailwindCSS** para presentar a nuestro querido club de barrio.  
+Desde los jugadores hasta el fixture de los partidos, la web busca ser un espacio informativo y visualmente atractivo para los vecinos, hinchas y jugadores.
+
+---
+
+## ✨ Funcionalidades
+
+- 🧭 Navegación SPA con React Router.
+- 🧍‍♂️ Página con lista de jugadores y sus dorsales.
+- 📆 Fixture para seguir el calendario de partidos.
+- 🖼️ Carrusel con fotos del equipo.
+- 📱 Responsive: adaptado para móviles y pantallas grandes.
+- 🎨 Paleta de colores personalizada para representar los colores del club.
+
+---
+
+## 🛠️ Tecnologías usadas
+
+- **React**
+- **Tailwind CSS**
+- **Vite**
+- React Router DOM
+- Deploy en **Vercel**
+
+---
+
+## 📸 Capturas
+
+<p align="center">
+  <img src="./src/assets/screen.png" alt="Inicio" width="600"/>
+</p>
+
