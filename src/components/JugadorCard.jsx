@@ -5,7 +5,7 @@ function JugadorCard({ jugador }) {
       <div className="mt-4">
         <h2 className="text-xl font-bold text-gray-800">{jugador.nombre}</h2>
         <p className="text-gray-700">{jugador.posicion}</p>
-        <p className="text-gray-500">{jugador.equipo}</p>
+        <p className="text-gray-500">Dorsal: <span className="text-red-600">{jugador.dorsal}</span></p>
       </div>
     </div>
   );

@@ -1,20 +1,20 @@
-import yo from "../assets/yo.jpg"
+
 const jugadores = [
   {
     id: 1,
-    nombre: "Lionel Messi",
+    nombre: "Valentin Soldi",
     posicion: "Delantero",
-    equipo: "Inter Miami",
-    imagen: yo,
+    dorsal: 11,
+    
   },
   {
     id: 2,
-    nombre: "Emiliano Martínez",
-    posicion: "Arquero",
-    equipo: "Aston Villa",
-    imagen: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Emiliano_Mart%C3%ADnez_2022.jpg",
+    nombre: "Maximiliano Soldi",
+    posicion: "Delantero",
+    dorsal: 9,
+
   },
-  // podés seguir agregando más...
+  
 ];
 
 export default jugadores;
